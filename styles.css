@@ -51,5 +51,16 @@ hr {
     width: 500px;
 }
 
-.review-btns {
+.nav-btns button {
+    margin: 20px;
+    background: transparent;
+    border: none;
+}
+
+.random-btn {
+    background-color:#edf8ff;
+    border: solid 2px #44a3e9;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #44a3e9;
 }
