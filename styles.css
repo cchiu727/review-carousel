@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+*  {
+    font-family: 'Robot', sans-serif;
+}
+
+body {
+    background-color: #F0F0F0;
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+hr {
+    width: 100px;
+    border: 2px solid #44a3e9;
+}
+
+.review-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 150px;
+    width: 400px;
+    margin: 25px auto;
+    background-color: #FFFFFF;
+    border-radius: 3%;
+    filter: drop-shadow(5px 5px 10px rgb(194, 194, 194));
+}
+
+.review-container {
+    text-align: center;
+}
+
+.review-img {
+    width: 150px;
+    border-radius: 100%;
+}
+
+.review-desc {
+    text-align: left;
+    width: 500px;
+}
+
+.review-btns {
+}
