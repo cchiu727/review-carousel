@@ -12,33 +12,30 @@ class Carousel {
     
     nextItem() {
         this.i === (this.reviewList.length - 1) ? this.i = 0 : this.i++;
-        
-        // if (this.i === (this.reviewList.length - 1))
-        //     this.i = 0;
-        // else
-        //     this.i++;
-        return this.getReview();
     }
 
     prevItem() {
         this.i === 0 ? this.i = (this.reviewList.length - 1) : this.i--;
-        
-        // if (this.i === 0)
-        //     this.i = (this.reviewList.length - 1);
-        // else
-        //     this.i--;
-
-        return this.getReview();
     }
 }
 
 const prevBtn = document.getElementById('prev-btn');
 const nextBtn = document.getElementById('next-btn');
 
+const carousel = new Carousel(reviews);
+
+function showReview(review) {
+    document.getElementById('review-name').innerHTML = review.name;
+    document.getElementById('review-title').innerHTMl= review.title;
+    document.getElementById('review-desc').innerHTML = review.desc;
+}
+
 nextBtn.addEventListener('click', function() {
-    console.log('clicked next');
+    carousel.nextItem();
+    showReview(carousel.getReview());
 });
 
 prevBtn.addEventListener('click', function() {
-    console.log('clicked prev');
+    carousel.prevItem();
+    showReview(carousel.getReview());
 });
