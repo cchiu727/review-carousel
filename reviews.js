@@ -28,5 +28,11 @@ export const reviews = [
         name: 'Hans Down',
         title: 'Employee',
         description: 'This would be the first thing that I would recommend to anyone I know.'
+    },
+    {
+        image: 'images/billding.jpg',
+        name: 'Bill Ding',
+        title: 'Customer',
+        description: 'Exceeded my expectations!'
     }
 ];
