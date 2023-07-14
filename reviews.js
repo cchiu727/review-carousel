@@ -11,7 +11,7 @@ export const reviews = [
         image: 'images/janedoe.jpeg',
         name: 'Jane Doe',
         title: 'COO',
-        description: 'The second best ever!'
+        description: 'My favorite!'
     },
     {
         id: 2,
