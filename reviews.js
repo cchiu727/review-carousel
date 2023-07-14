@@ -1,14 +1,14 @@
 export const reviews = [
     {
         id: 0,
-        image: 'images/cat.jpg',
+        image: 'images/johndoe.jpg',
         name: 'John Doe',
         title: 'CEO',
         description: 'The best ever!'
     },
     {
         id: 1,
-        image: 'images/cat.jpg',
+        image: 'images/janedoe.jpeg',
         name: 'Jane Doe',
         title: 'COO',
         description: 'The second best ever!'

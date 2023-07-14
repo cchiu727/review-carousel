@@ -42,12 +42,21 @@ hr {
 }
 
 .review-img {
+    object-fit: cover;
+    height: 150px;
     width: 150px;
     border-radius: 100%;
 }
 
+.review-name {
+    font-size: 24px;
+}
+
+.review-title {
+    font-size: 18px;
+}
+
 .review-desc {
-    text-align: left;
     width: 500px;
 }
 
