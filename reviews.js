@@ -22,5 +22,11 @@ export const reviews = [
         name: 'Keye Board',
         title: 'Customer',
         description: 'I\'ve been with this company for years, and they have never failed me!'
+    },
+    {
+        image: 'images/hansdown.jpg',
+        name: 'Hans Down',
+        title: 'Employee',
+        description: 'This would be the first thing that I would recommend to anyone I know.'
     }
 ];
